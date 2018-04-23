@@ -1,0 +1,24 @@
+{
+  "name": "acuityboxdrive",
+  "version": "1.0.0",
+  "description": "sync application with dropbox or google drive",
+  "main": "server.js",
+  "scripts": {
+    "test": "null"
+  },
+  "keywords": [
+    "Acuity",
+    "google",
+    "drive",
+    "dropbox"
+  ],
+  "author": "COMSOFT ACUITY",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dropbox": "^4.0.3",
+    "express": "^4.16.3",
+    "googleapis": "^29.0.0",
+    "morgan": "^1.9.0"
+  }
+}
