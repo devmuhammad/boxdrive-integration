@@ -4,7 +4,8 @@
   "description": "sync application with dropbox or google drive",
   "main": "server.js",
   "scripts": {
-    "test": "null"
+    "test": "null",
+    "start-dev": "node server.js"
   },
   "keywords": [
     "Acuity",
@@ -19,6 +20,7 @@
     "dropbox": "^4.0.3",
     "express": "^4.16.3",
     "googleapis": "^29.0.0",
+    "mongoose": "^5.0.16",
     "morgan": "^1.9.0"
   }
 }
