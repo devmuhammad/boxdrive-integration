@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "null",
-    "start-dev": "node server.js"
+    "start-dev": "node server.js",
+    "dev-server": "nodemon server.js"
   },
   "keywords": [
     "Acuity",
@@ -17,10 +18,19 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "dropbox": "^4.0.3",
+    "dropbox-fs": "^0.3.0",
     "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "express-sessions": "^1.0.6",
     "googleapis": "^29.0.0",
     "mongoose": "^5.0.16",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "node-cache": "^4.2.0",
+    "opn": "^5.3.0",
+    "redis": "^2.8.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
   }
 }
