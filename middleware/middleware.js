@@ -19,6 +19,6 @@ var sess = {
         collection: 'sessions' // optional 
     })
 }
-exports.middleware= {
+exports.middleware = {
     session(sess);
 }
