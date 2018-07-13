@@ -1,7 +1,7 @@
 const app             = require('express')()
       ,mongoose       = require('mongoose')
       ,config         = require('./CONFIG')
-      ,dbConfig       = require('./config/database.config')
+      ,dbConfig       = require('./CONFIG/database.config')
       ,bodyParser     = require('body-parser')
       ,morgan         = require('morgan')
       ,fs             = require('fs')
