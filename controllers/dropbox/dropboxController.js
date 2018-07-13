@@ -1,6 +1,6 @@
 const 
      crypto     = require('crypto')
-    ,config     = require('../../CONFIG/')
+    ,config     = require('../../config/')
     ,rp         = require('request-promise')
     ,dbxService = require('../../services/dropBoxService')
     ,NodeCache  = require( "node-cache" )
@@ -113,14 +113,14 @@ module.exports.oauthredirect = async (req,res,next )=>{
 
  
 //Session regeneration if expired
- function regenerateSessionAsync(req){
+//  function regenerateSessionAsync(req){
   
-  return new Promise((resolve,reject)=>{
-    req.session.regenerate((err)=>{
-      err ? reject(err) : resolve();
-    });
-  });
-}
+//   return new Promise((resolve,reject)=>{
+//     req.session.regenerate((err)=>{
+//       err ? reject(err) : resolve();
+//     });
+//   });
+// }
 
 //Retrieve documents
 exports.retrieveFiles = function(req, res, next){

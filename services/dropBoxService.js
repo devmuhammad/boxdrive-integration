@@ -1,4 +1,4 @@
-const config = require('../CONFIG')
+const config = require('../config')
       ,Dropbox = require('dropbox').Dropbox;
             //    require('isomorphic-fetch');
 
