@@ -48,4 +48,4 @@ Production: http://BaseURL/boxdrive-api/v1/ Development: http://localhost:3000/b
 * Clone repository ```git clone```
 * Install dependencies ```yarn install```
 * if dependencies install successfully
-* ```npm run start-dev```
+* ```yarn start-dev```
