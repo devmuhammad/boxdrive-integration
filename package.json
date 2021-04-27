@@ -35,7 +35,7 @@
     "node-cache": "^4.2.0",
     "node-fs": "^0.1.7",
     "opn": "^5.3.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
   }
