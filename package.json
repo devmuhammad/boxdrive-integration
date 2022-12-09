@@ -25,7 +25,7 @@
     "dropbox": "^4.0.3",
     "dropbox-fs": "^0.3.0",
     "dropbox-stream": "^2.0.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-session": "^1.15.6",
     "express-sessions": "^1.0.6",
     "googleapis": "^29.0.0",
